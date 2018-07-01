@@ -1,0 +1,20 @@
+{
+  "name": "hellojest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testWithCoverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.1.2",
+    "jest": "^23.2.0",
+    "ts-jest": "^22.4.6",
+    "typescript": "^2.9.2",
+    "@types/jest-diff": "^20.0.0"
+  }
+}

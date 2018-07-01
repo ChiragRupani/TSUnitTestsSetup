@@ -2,9 +2,11 @@
 
 This repository contains 3 Projects:
 
-1.  [HelloJasmine](https://localhost/ 'Jasmine')
-2.  HelloMocha
-3.  Hello Jest
+1.  [HelloJasmine](https://github.com/chiragrupani/TSUnitTestsSetup/tree/master/HelloJasmine 'Jasmine')
+
+2.  [HelloMocha](https://github.com/chiragrupani/TSUnitTestsSetup/tree/master/HelloMocha 'Mocha')
+
+3.  [Hello Jest](https://github.com/chiragrupani/TSUnitTestsSetup/tree/master/HelloJest 'Jest')
 
 Each project contains sample source code in `src` folder and unit tests in `tests` folder.
 
@@ -12,7 +14,7 @@ The goal is to create starter project using typescript and above testing framewo
 
 <hr/>
 
-> Manually Setting up projects
+## Manually Setting up projects
 
 The `.\installCmd.sh` file contains `npm install` commands if you want to use same npm package in your existing projects.
 
@@ -32,7 +34,7 @@ Also,`.\tsconfig.json` file is generated using `tsc --init` command
 
 <hr/>
 
-> Test Execution
+## Test Execution
 
 The tests are executed using
 

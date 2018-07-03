@@ -10,11 +10,11 @@
       "name": "Mocha All",
       "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
       "args": [
-        "--timeout",
-        "999999",
+        "--no-timeouts",
         "--colors",
         "${workspaceFolder}/tests/**/*.test.ts",
-        "-r ts-node/register"
+        "--require",
+        "ts-node/register"
       ],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
@@ -24,8 +24,15 @@
       "request": "launch",
       "name": "Mocha Current File",
       "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
-      "args": ["--timeout", "999999", "--colors", "${file}"],
+      "args": [
+        "--no-timeouts",
+        "--colors",
+        "${file}",
+        "--require",
+        "ts-node/register"
+      ],
       "console": "integratedTerminal",
+      "sourceMaps": true,
       "internalConsoleOptions": "neverOpen"
     }
   ]

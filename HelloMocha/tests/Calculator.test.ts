@@ -4,11 +4,11 @@ import C from '../src/Calculator';
 describe('calculate', function() {
   it('add', function() {
     let result = C.Sum(5, 2);
-    expect(result).eq(7);
+    expect(result).equal(7);
   });
 
   it('substract', function() {
     let result = C.Difference(5, 2);
-    expect(result).eq(3);
+    expect(result).equal(3);
   });
 });

@@ -4,17 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine-ts \"tests/*.test.ts\"",
+    "test": "jasmine-ts --config=jasmine.json",
     "testWithCoverage": "nyc -r lcov -e .ts -x \"*.test.ts\" jasmine-ts \"tests/*.test.ts\" && nyc report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jasmine": "^2.8.8",
-    "jasmine": "^3.1.0",
-    "jasmine-ts": "^0.2.1",
-    "nyc": "^12.0.2",
-    "typescript": "^2.9.2"
+    "@types/jasmine": "^3.3.0",
+    "jasmine": "^3.3.0",
+    "jasmine-ts": "^0.3.0",
+    "nyc": "^13.1.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
   }
 }

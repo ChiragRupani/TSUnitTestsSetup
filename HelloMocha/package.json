@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -r ts-node/register tests/**/*.test.ts",
-    "testWithCoverage": "nyc -r lcov -e .ts -x \"*.test.ts\" mocha -r ts-node/register tests/**/*.test.ts && nyc report"
+    "testWithCoverage": "nyc -r lcov -e .ts -x \"tests/*.test.ts\" mocha -r ts-node/register tests/**/*.test.ts && nyc report"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +16,7 @@
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "nyc": "^13.1.0",
-    "ts-node": "^7.0.1",
-    "typescript": "^3.1.6"
+    "ts-node": "^8.0.2",
+    "typescript": "^3.2.4"
   }
 }

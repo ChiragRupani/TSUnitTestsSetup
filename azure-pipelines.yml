@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-- master
+  - master
 
 pool:
   vmImage: 'Ubuntu-16.04'
@@ -16,12 +16,18 @@ steps:
     displayName: 'Install Node.js'
 
   - script: |
-      cd HelloJasmine && npm install      
-      cd HelloJasmine && npm run test
+      cd HelloJasmine
+      npm install      
+      npm run test
+      cd..
 
-      cd HelloMocha && npm install      
-      cd HelloMocha && npm run test
+      cd HelloMocha
+      npm install      
+      npm run test
+      cd..
 
-      cd HelloJest && npm install      
-      cd HelloJest && npm run test    
+      cd HelloJest
+      cd npm install      
+      npm run test    
+      cd..
     displayName: 'npm install and run tests'

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jasmine-ts --config=jasmine.json",
-    "testWithCoverage": "nyc -r lcov -e .ts -x \"tests/*.test.ts\" jasmine-ts --config=jasmine.json && nyc report"
+    "testWithCoverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" jasmine-ts --config=jasmine.json"
   },
   "keywords": [],
   "author": "",

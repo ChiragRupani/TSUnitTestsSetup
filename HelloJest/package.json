@@ -5,15 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "testWithCoverage": "jest --coverage"
+    "coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^24.0.15",
-    "jest": "^24.8.0",
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.2"
   }
 }

@@ -5,18 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -r ts-node/register tests/**/*.test.ts",
-    "testWithCoverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" mocha -r ts-node/register tests/**/*.test.ts"
+    "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/chai": "^4.1.7",
+    "@types/chai": "^4.2.0",
     "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.0",
     "nyc": "^14.1.1",
     "ts-node": "^8.3.0",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.2"
   }
 }

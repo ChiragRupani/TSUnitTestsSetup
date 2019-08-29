@@ -1,0 +1,12 @@
+{
+  "nyc": {
+    "all": true,
+    "include": ["src/**/*.ts"],
+    "exclude": ["tests/*.test.ts"],
+    "reporter": ["text"],
+    "extension": [".ts"],
+    "sourceMap": true,
+    "instrument": true,
+    "cache": false
+  }
+}

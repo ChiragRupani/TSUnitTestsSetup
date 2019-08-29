@@ -44,6 +44,12 @@ npm t
 
 (which is short for `npm run test`)
 
+To get test coverage
+
+```sh
+npm run coverage
+```
+
 <hr/>
 
 If you get error - `describe is not defined`, add mocha or jasmine as shown below in `ts.config`:

@@ -74,3 +74,6 @@ typings/
 
 # distribution directories
 dist
+
+# TSOuput
+TSOutput

@@ -18,16 +18,16 @@ steps:
   - script: |
       cd HelloJasmine
       npm install      
-      npm run testWithCoverage
+      npm run coverage
       cd ..
 
       cd HelloMocha
       npm install      
-      npm run testWithCoverage
+      npm run coverage
       cd ..
 
       cd HelloJest
       npm install      
-      npm run testWithCoverage    
+      npm run coverage    
       cd ..
     displayName: 'npm install and run tests'

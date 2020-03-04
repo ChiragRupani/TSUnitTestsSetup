@@ -11,12 +11,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/chai": "^4.2.7",
-    "@types/mocha": "^5.2.7",
+    "@types/chai": "^4.2.10",
+    "@types/mocha": "^7.0.2",
     "chai": "^4.2.0",
-    "mocha": "^6.2.2",
+    "mocha": "^7.1.0",
     "nyc": "^15.0.0",
-    "ts-node": "^8.5.4",
-    "typescript": "^3.7.4"
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
   }
 }

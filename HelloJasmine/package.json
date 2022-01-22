@@ -11,10 +11,10 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/jasmine": "^3.9.1",
-    "jasmine": "^3.9.0",
+    "@types/jasmine": "^3.10.3",
+    "jasmine": "^4.0.2",
     "nyc": "^15.1.0",
-    "ts-node": "^10.2.1",
-    "typescript": "^4.4.3"
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
   }
 }

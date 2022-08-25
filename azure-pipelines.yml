@@ -7,27 +7,27 @@ trigger:
   - master
 
 pool:
-  vmImage: 'Ubuntu-latest'
+  vmImage: "Ubuntu-latest"
 
 steps:
   - task: NodeTool@0
     inputs:
-      versionSpec: '16.x'
-    displayName: 'Install Node.js'
+      versionSpec: "16.x"
+    displayName: "Install Node.js"
 
   - script: |
       cd HelloJasmine
-      npm install      
+      npm ci --no-fund     
       npm run coverage
       cd ..
 
       cd HelloMocha
-      npm install      
+      npm ci --no-fund     
       npm run coverage
       cd ..
 
       cd HelloJest
-      npm install      
+      npm ci --no-fund    
       npm run coverage    
       cd ..
-    displayName: 'npm install and run tests'
+    displayName: "npm install and run tests"

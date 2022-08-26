@@ -17,17 +17,17 @@ steps:
 
   - script: |
       cd HelloJasmine
-      npm ci --no-fund     
+      npm ci --no-fund --no-progress     
       npm run coverage
       cd ..
 
       cd HelloMocha
-      npm ci --no-fund     
+      npm ci --no-fund --no-progress   
       npm run coverage
       cd ..
 
       cd HelloJest
-      npm ci --no-fund    
+      npm ci --no-fund --no-progress   
       npm run coverage    
       cd ..
     displayName: "npm install and run tests"

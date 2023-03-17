@@ -1,0 +1,22 @@
+{
+  "name": "hellonode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node -r ts-node/register \"test/*.test.ts\" --test",
+    "coverage1": "npm t -- --test-reporter=spec",
+    "coverage": "nyc -r text -e .ts -x \"test/*.test.ts\" npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^10.9.1"
+  }
+}

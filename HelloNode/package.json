@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^18.13.0",
+    "@types/node": "^18.15.3",
     "nyc": "^15.1.0",
     "ts-node": "^10.9.1"
   }

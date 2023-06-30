@@ -30,4 +30,9 @@ steps:
       npm ci --no-fund --no-progress   
       npm run coverage    
       cd ..
+
+      cd HelloVitest
+      npm ci --no-fund --no-progress   
+      npm run coverage    
+      cd ..
     displayName: "npm install and run tests"

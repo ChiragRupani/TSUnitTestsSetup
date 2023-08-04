@@ -7,5 +7,7 @@ export default defineConfig({
     coverage: {
       reporter: [["cobertura", { file: "coverage.xml" }], "text"],
     },
+    reporters: ["default", "junit"],
+    outputFile: { junit: "coverage/test-results.xml" },
   },
 });

@@ -11,8 +11,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/chai": "^4.3.8",
-    "@types/mocha": "^10.0.2",
+    "@types/chai": "^4.3.9",
+    "@types/mocha": "^10.0.3",
     "chai": "^4.3.10",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0",

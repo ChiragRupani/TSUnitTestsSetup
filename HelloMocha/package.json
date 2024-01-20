@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r ts-node/register tests/**/*.test.ts",
+    "test": "mocha --require ts-node/register tests/**/*.test.ts",
     "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test"
   },
   "keywords": [],
@@ -13,10 +13,10 @@
   "devDependencies": {
     "@types/chai": "^4.3.11",
     "@types/mocha": "^10.0.6",
-    "chai": "^4.3.10",
+    "chai": "^4.4.1",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.3.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   }
 }

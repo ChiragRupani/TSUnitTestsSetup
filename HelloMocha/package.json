@@ -11,12 +11,12 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/chai": "^4.3.11",
+    "@types/chai": "^4.3.12",
     "@types/mocha": "^10.0.6",
     "chai": "^4.4.1",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   }
 }

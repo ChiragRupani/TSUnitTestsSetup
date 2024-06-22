@@ -1,14 +1,14 @@
-import { expect } from "chai";
+import assert from "node:assert/strict";
 import calculator from "../src/Calculator";
 
 describe("calculate", function () {
   it("add", function () {
     let result = calculator.Sum(5, 2);
-    expect(result).equal(7);
+    assert.equal(result, 7);
   });
 
   it("substract", function () {
     let result = calculator.Difference(5, 2);
-    expect(result).equal(3);
+    assert.equal(result, 3);
   });
 });

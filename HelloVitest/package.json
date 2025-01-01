@@ -11,8 +11,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@vitest/coverage-v8": "^2.1.1",
-    "typescript": "^5.6.2",
-    "vitest": "^2.1.1"
+    "@vitest/coverage-v8": "^2.1.8",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
   }
 }

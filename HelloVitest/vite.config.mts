@@ -5,6 +5,7 @@ export default defineConfig({
   test: {
     globals: true,
     coverage: {
+      include: ["src/**"],
       reporter: [["cobertura", { file: "coverage.xml" }], "text"],
     },
     reporters: ["default", "junit"],

@@ -1,12 +1,11 @@
 ## Typescript unit tests
 
-This repository contains 3 Projects:
+This repository contains 4 Projects:
 
-1.  [HelloJasmine](https://github.com/chiragrupani/TSUnitTestsSetup/tree/master/HelloJasmine 'Jasmine')
-
-2.  [HelloMocha](https://github.com/chiragrupani/TSUnitTestsSetup/tree/master/HelloMocha 'Mocha')
-
-3.  [Hello Jest](https://github.com/chiragrupani/TSUnitTestsSetup/tree/master/HelloJest 'Jest')
+1. [HelloJasmine](https://github.com/chiragrupani/TSUnitTestsSetup/tree/master/HelloJasmine "Jasmine")
+1. [HelloMocha](https://github.com/chiragrupani/TSUnitTestsSetup/tree/master/HelloMocha "Mocha")
+1. [HelloJest](https://github.com/chiragrupani/TSUnitTestsSetup/tree/master/HelloJest "Jest")
+1. [HelloVitest](https://github.com/chiragrupani/TSUnitTestsSetup/tree/master/HelloVitest "Vitest")
 
 Each project contains sample source code in `src` folder and unit tests in `tests` folder.
 

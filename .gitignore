@@ -77,3 +77,7 @@ dist
 
 # TSOuput
 TSOutput
+HelloJasmine/build/src/Calculator copy.js
+HelloJasmine/build/src/Calculator.js
+HelloJasmine/build/tests/Calculator.test.js
+HelloJasmine/build/tests/CalculatorCopy.test.js

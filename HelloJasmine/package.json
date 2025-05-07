@@ -4,17 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
+    "clean": "rmdir /s /q build",
+    "test": "tsc & (jasmine --config=jasmine.json)",
+    "posttest": "npm run clean",
     "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/jasmine": "^5.1.7",
-    "jasmine": "^5.7.0",
+    "@types/jasmine": "^5.1.8",
+    "jasmine": "^5.7.1",
     "nyc": "^17.1.0",
-    "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
 }

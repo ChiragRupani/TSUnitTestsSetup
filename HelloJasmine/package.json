@@ -14,8 +14,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jasmine": "^5.1.8",
-    "jasmine": "^5.7.1",
+    "jasmine": "^5.9.0",
     "nyc": "^17.1.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   }
 }

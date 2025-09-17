@@ -13,8 +13,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/jasmine": "^5.1.8",
-    "jasmine": "^5.9.0",
+    "@types/jasmine": "^5.1.9",
+    "jasmine": "^5.10.0",
     "nyc": "^17.1.0",
     "typescript": "^5.9.2"
   }

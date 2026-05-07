@@ -11,10 +11,10 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@swc/core": "^1.15.24",
+    "@swc/core": "^1.15.33",
     "@swc/jest": "^0.2.39",
     "@types/jest": "^30.0.0",
     "jest": "^30.3.0",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.3"
   }
 }

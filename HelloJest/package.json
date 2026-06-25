@@ -2,19 +2,22 @@
   "name": "hellojest",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
-    "@swc/core": "^1.15.33",
+    "@swc/core": "^1.15.43",
     "@swc/jest": "^0.2.39",
     "@types/jest": "^30.0.0",
-    "jest": "^30.3.0",
+    "jest": "^30.4.2",
     "typescript": "^6.0.3"
+  },
+  "overrides": {
+    "js-yaml": "^5.1.0"
   }
 }

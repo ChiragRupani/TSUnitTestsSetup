@@ -2,6 +2,9 @@
   "name": "hellojasmine",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "clean": "rmdir /s /q build",
@@ -9,13 +12,13 @@
     "posttest": "npm run clean",
     "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "@types/jasmine": "^6.0.0",
     "jasmine": "^6.3.0",
     "nyc": "^18.0.0",
     "typescript": "^6.0.3"
+  },
+  "overrides": {
+    "js-yaml": "^5.1.0"
   }
 }

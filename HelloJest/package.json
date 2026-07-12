@@ -15,7 +15,7 @@
     "@swc/jest": "^0.2.39",
     "@types/jest": "^30.0.0",
     "jest": "^30.4.2",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "overrides": {
     "js-yaml": "^5.1.0"

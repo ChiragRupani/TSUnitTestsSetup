@@ -9,8 +9,7 @@
   "scripts": {
     "test": "tsx ./node_modules/mocha/bin/mocha.js \"tests/**/*.test.ts\"",
     "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test",
-    "init": "tsc --init",
-    "lint": "oxlint"
+    "init": "tsc --init"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.10",

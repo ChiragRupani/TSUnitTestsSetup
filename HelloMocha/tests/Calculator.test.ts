@@ -2,13 +2,13 @@ import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 import calculator from "../src/Calculator";
 
-describe("calculate", function () {
-  it("add", function () {
+void describe("calculate", function () {
+  void it("add", function () {
     let result = calculator.Sum(5, 2);
     assert.equal(result, 7);
   });
 
-  it("substract", function () {
+  void it("substract", function () {
     let result = calculator.Difference(5, 2);
     assert.equal(result, 3);
   });

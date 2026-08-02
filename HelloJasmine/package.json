@@ -16,7 +16,7 @@
     "@types/jasmine": "^6.0.0",
     "jasmine": "^6.3.0",
     "nyc": "^18.0.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "overrides": {
     "js-yaml": "^5.1.0"

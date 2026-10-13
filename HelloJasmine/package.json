@@ -13,7 +13,7 @@
     "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test"
   },
   "devDependencies": {
-    "@types/jasmine": "^6.0.0",
+    "@types/jasmine": "^7.0.0",
     "jasmine": "^7.0.0",
     "nyc": "^18.0.0",
     "typescript": "^7.0.2"

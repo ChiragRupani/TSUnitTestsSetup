@@ -12,7 +12,7 @@ pool:
 steps:
   - task: NodeTool@0
     inputs:
-      versionSpec: "25.x"
+      versionSpec: "26.x"
     displayName: "Install Node.js"
 
   - script: |
